@@ -1,5 +1,5 @@
 body {
-    background-image: url(https://cdn.bulbagarden.net/upload/e/e8/700Sylveon.png);
+   /* background-image: url(https://cdn.bulbagarden.net/upload/e/e8/700Sylveon.png); */
 }
 
 h1 {
@@ -11,7 +11,18 @@ h1 {
     box-shadow: 10px 10px 10px 10px #808080;
 }
 
+h2 {
+    text-align: center;
+}
+
 p {
   font: center;
   color: grey; 
+  box-shadow: 5px 5px 5px #808080;
+  padding: 30px;
+}
+
+
+li {
+    text-align: center;
 }
