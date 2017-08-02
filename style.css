@@ -1,0 +1,18 @@
+body {
+    background-image: url(https://cdn.bulbagarden.net/upload/e/e8/700Sylveon.png);
+}
+
+h1 {
+    float: center;
+    font: georgia, sans-serif;
+    text-align: center;
+    font-size: 100px;
+    color: grey;
+    box-shadow: 10px 10px 10px 10px #808080;
+}
+
+p {
+  font: center;
+  color: grey;
+  float: center; 
+}
