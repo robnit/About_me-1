@@ -101,4 +101,4 @@ for (var i = 0; i < 6; i ++ ) {
   }
 }
 
-alert(userName + ' you got ' + we + ' questions right!');
+alert(userName + ' you got ' + answers + ' questions right!');
