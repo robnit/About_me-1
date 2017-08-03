@@ -16,11 +16,13 @@ var myArray = [
   ['Was I born in Portland?', 'yes'],
   ['Is my favorite color Red?','no']
 ];
+
 var correctAnswers = 0;
+
 function yesNo (question,correctAnswer){
-  userAnswer = prompt(question).toLowerCase();
   console.log('Input question variable is ' + question);
-  if (userAnswer === correctAnswer){
+  
+  if (prompt(question).toLowerCase() === correctAnswer){
     correctAnswers++;
     alert ('Correct');
     console.log(correctAnswers + ' questions guessed correctly');
@@ -33,7 +35,7 @@ function yesNo (question,correctAnswer){
 }
 
 for (i = 0; i < myArray.length; i++){
-  yesNo(myArray[i][0],myArray[i][1]);
+  yesNo( myArray[i][0], myArray[i][1] );
 }
 
 alert ('You guessed ' + correctAnswers + ' correctly.');
